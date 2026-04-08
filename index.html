@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GORLO</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: black;
+      align-items: center;
+    }
+
+    header h1 {
+      letter-spacing: 3px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    .hero {
+      height: 90vh;
+      background: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 50px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+    }
+
+    .products {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: #222;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GORLO</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Streetwear Redefined</h2>
+</section>
+
+<section class="products">
+  <h2>Featured Collection</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" alt="">
+      <h3>Black Tee</h3>
+      <p>₹999</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1" alt="">
+      <h3>Hoodie</h3>
+      <p>₹1999</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="">
+      <h3>Jacket</h3>
+      <p>₹2999</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 GORLO. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
